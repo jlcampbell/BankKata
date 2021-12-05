@@ -82,6 +82,7 @@ describe('convert array of 3x3-character strings to number', () => {
         expect(actual).to.eql(expected)
     })
    
+    //failing because code does not properly compare arrays- fix next
     it('should return numbers for array of strings', () => {
         const testInput = [
             [ 
